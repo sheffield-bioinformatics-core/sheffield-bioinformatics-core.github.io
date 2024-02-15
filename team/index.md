@@ -14,6 +14,7 @@ A key philosophy of working with the Sheffield Bioinformatics Core is that you a
 
 ## Associate Members
 
+- [Manoj Kumar Valluru](http://sbc.shef.ac.uk/team/manoj/) - KRUK PDRA, Kidney Genetics Group, Division of Clinical Medicine
 - Jamie Adams - Postdoc, Ex-Vivo Group, Faculty of Health, Division of Clinical Medicine
 - [Magda Dabrowska](http://sbc.shef.ac.uk/team/magda) - Software Developer, De Silva Group, Faculty of Health, Division of Clinical Medicine
 - [Lewis Quayle](http://sbc.shef.ac.uk/team/lewis/) - Cancer Bioinformatician; Senior Lecturer in Data Science and Analytics, Dept. of Computing, Sheffield Hallam University

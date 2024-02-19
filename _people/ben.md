@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD:_people/ben.md
 alumnum: false
 level: 2
 published: true
@@ -28,9 +27,3 @@ Currently, I am a PhD student with David C James exploring omics analyses of mam
 
 LinkedIn:
 [https://www.linkedin.com/in/ben-j-draper/](https://www.linkedin.com/in/ben-j-draper/)
-=======
-layout: page
-title: Ben Draper
-excerpt: "More about Ben"
----
->>>>>>> master:team/ben.md

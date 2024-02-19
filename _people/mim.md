@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD:_people/mim.md
 alumnum: false
 level: 2
 published: true
@@ -15,11 +14,3 @@ summary: Currently investigating novel therapies for soft tissue sarcomas. Ex-Vi
 
 
 Currently investigating novel therapies for soft tissue sarcomas. Ex-Vivo Lab & Rare Tumour Research Group, Faculty of Health, Division of Clinical Medicine.
-
-
-=======
-layout: page
-title: Miriam (Mim) Arrulo
-excerpt: "More about Mim..."
----
->>>>>>> master:team/mim.md

@@ -22,8 +22,6 @@
   subitems:
     - title: Overview
       url: /community
-    - title: Code of Conduct
-      url: /community/code_of_conduct
     - title: Blog
       url: /blog/
 - title: Contact

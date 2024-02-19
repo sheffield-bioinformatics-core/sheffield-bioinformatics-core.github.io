@@ -1,60 +1,87 @@
-# Site wide configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data assets
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Sheffield Bioinformatics Core Facility
-locale: en_US
-description: Updates from the Bioinformatics Core Facility at The University of Sheffield.
-logo: site-logo.png
-search: true
-url: https://sbc.shef.ac.uk
-google_analytics: UA-63148050-15
+# Site settings
+# These are used to personalize your new site. If you look in the HTML assets,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Sheffield Bioinformatics Core
+email: bioinformatics-core@sheffield.ac.uk
+description: > # this means to ignore newlines until "baseurl:"
+  The Sheffield Bioinformatics Core provides a range of services.. to support researchers in the analysis, visualization and interpretation of 'omics and other high-throughput biological datasets. We also have a range of data science and Bioinformatics training workshops facilitated by experienced and accredited instructors. In order to make the most of our services, please contact us at the experimental planning stage of your project.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sbc.shef.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
+# timezone for the build server, set to london to make event dates probably fine.
+timezone: Europe/London
+twitter_username: SheffBioinfCore
+github_username: sheffield-bioinformatics-core
+twitter:
+  username: SheffBioinfCore
+  card: summary
+logo: /assets/images/logo/UOS_Violet_SBC_2023.png
 
-# Jekyll configuration
+future: true # required for collections with a date field, where future events are desired.
+collections:
+  events:
+    output: true
+  newsletters:
+    output: true
+  people:
+    output: true
+    permalink: /contact/:path/
+  projects:
+    output: true
+  project_descriptions:
+    output: true
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
+# Build settings
+markdown: kramdown
+#theme: minima
 plugins:
-  - github-pages
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-paginate
   - jemoji
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+strict_front_matter: true
+defaults:
+  - scope:
+      path: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: "/blog/:slug/"
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "person"
+  - scope:
+      path: ""
+      type: "newsletters"
+    values:
+      layout: "newsletter"
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
-
-mathjax: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-repository: sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.io
-
-# Site owner
-owner:
-  name: Sheffield Bioinformatics Core
-  avatar: #3796277.jpeg
-  email: bioinformatics-core@sheffield.ac.uk
-  disqus-shortname:
-  twitter: SheffBioinfCore
-  facebook: #username
-  github: sheffield-bioinformatics-core
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+# Configure Blog
+paginate: 10
+paginate_path: /blog/page:num/

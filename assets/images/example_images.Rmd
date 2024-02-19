@@ -1,0 +1,135 @@
+---
+title: "Example Images"
+output: html_notebook
+---
+
+## RNA-seq
+
+Using an example from the GeneTonic vignette
+
+```{r}
+
+
+library(GeneTonic)
+library("macrophage")
+library("DESeq2")
+
+data("gse", package = "macrophage")
+
+dds_macrophage <- DESeqDataSet(gse, design = ~line + condition)
+# changing the ids to Ensembl instead of the Gencode used in the object
+rownames(dds_macrophage) <- substr(rownames(dds_macrophage), 1, 15)
+
+dds_macrophage <- DESeq(dds_macrophage)
+# vst_macrophage <- vst(dds_macrophage)
+res_macrophage_IFNg_vs_naive <- results(dds_macrophage,
+                                        contrast = c("condition", "IFNg", "naive"),
+                                        lfcThreshold = 1, alpha = 0.05)
+res_macrophage_IFNg_vs_naive$SYMBOL <- rowData(dds_macrophage)$SYMBOL
+
+library("AnnotationDbi")
+de_symbols_IFNg_vs_naive <- deseqresult2df(res_macrophage_IFNg_vs_naive, FDR = 0.05)$SYMBOL
+bg_ids <- rowData(dds_macrophage)$SYMBOL[rowSums(counts(dds_macrophage)) > 0]
+data("res_enrich_macrophage",package = "GeneTonic")
+head(topgoDE_macrophage_IFNg_vs_naive, 2)
+
+res_enrich_macrophage <- shake_topGOtableResult(topgoDE_macrophage_IFNg_vs_naive)
+colnames(res_enrich_macrophage)
+
+
+
+library("org.Hs.eg.db")
+anno_df <- data.frame(
+  gene_id = rownames(dds_macrophage),
+  gene_name = mapIds(org.Hs.eg.db, keys = rownames(dds_macrophage), column = "SYMBOL", keytype = "ENSEMBL"),
+  stringsAsFactors = FALSE,
+  row.names = rownames(dds_macrophage)
+)
+
+res_enrich_macrophage <- get_aggrscores(res_enrich = res_enrich_macrophage,
+                                        res_de = res_macrophage_IFNg_vs_naive,
+                                        annotation_obj = anno_df,
+                                        aggrfun = mean)
+
+```
+
+
+```{r}
+library(tidyverse)
+p1 <- res_macrophage_IFNg_vs_naive %>% 
+  data.frame %>% 
+  mutate(Significant = padj < 0.005, abs(log2FoldChange) > 2) %>% 
+  arrange(padj) %>% 
+  filter(!is.na(padj)) %>% 
+  mutate(Rank = 1:n()) %>% 
+  mutate(Label = ifelse(Rank < 21, SYMBOL, "")) %>% 
+  ggplot(aes(x = log2FoldChange, y  = -log10(padj),col = Significant, label = Label)) + geom_point() + ggrepel::geom_text_repel(col = "black") + scale_color_manual(values = c("#9ADBE8","#440099")) + geom_vline(xintercept = c(-2,2),col="red",lty=2)
+  
+ggsave(p1, filename = "example_volcano.png",width = 6, height=3)
+```
+
+
+```{r}
+vst_macrophage <- vst(dds_macrophage)
+scores_mat <- gs_scores(
+  se = vst_macrophage,
+  res_de = res_macrophage_IFNg_vs_naive,
+  res_enrich = res_enrich_macrophage,
+  annotation_obj = anno_df
+)
+
+png("example_genetonic1.png",width=1200,height=600)
+gs_scoresheat(scores_mat,
+              n_gs = 30)
+dev.off()
+```
+
+```{r}
+res_enrich2 <- res_enrich_macrophage[1:50, ]
+set.seed(42)
+shuffled_ones <- sample(seq_len(50)) # to generate permuted p-values
+res_enrich2$gs_pvalue <- res_enrich2$gs_pvalue[shuffled_ones]
+res_enrich2$z_score <- res_enrich2$z_score[shuffled_ones]
+res_enrich2$aggr_score <- res_enrich2$aggr_score[shuffled_ones]
+
+png("example_genetonic2.png",width=800,height=400)
+gs_summary_overview_pair(res_enrich = res_enrich_macrophage,
+                         res_enrich2 = res_enrich2,
+                         n_gs = 25)
+dev.off()
+```
+
+## Enrichplot / KEGG
+
+```{r}
+library(clusterProfiler)
+data(geneList, package="DOSE")
+gene <- names(geneList)[abs(geneList) > 2]
+
+kk <- enrichKEGG(gene         = gene,
+                 organism     = 'hsa',
+                 pvalueCutoff = 0.05)
+head(kk)
+```
+
+```{r}
+library("pathview")
+hsa04110 <- pathview(gene.data  = geneList,
+                     pathway.id = "hsa04110",
+                     species    = "hsa",
+                     limit      = list(gene=max(abs(geneList)), cpd=1),
+                     low=list(gene="navy"),high=list(gene="red"))
+```
+
+## maftools
+
+```{r}
+library(maftools)
+brca <- system.file("extdata", "brca.maf.gz", package = "maftools")
+brca = read.maf(maf = brca, verbose = FALSE)
+png("example_rainfall.png", width = 800, height=400)
+rainfallPlot(maf = brca, detectChangePoints = TRUE, pointSize = 0.4)
+dev.off()
+```
+
+

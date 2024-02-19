@@ -1,0 +1,280 @@
+/* 
+ * Custom CSS Rules for the RSE Sheffield website. 
+ * Separate from the theme rules in-case we change theme
+ */
+
+/*
+    Bootstrap breakpoints for reference:
+    xs 
+    sm @media (min-width:576px)
+    md @media (min-width:768px)
+    lg @media (min-width:992px)
+    xl @media (min-width:1200px)
+*/
+
+:root {
+    --uos-deep-violet: #440099;
+    --uos-deep-violet-90: #541aa4;
+    --uos-deep-violet-80: #6431ac;
+    --uos-deep-violet-70: #784bb6;
+    --uos-powder-blue: #9ADBE8;
+    --uos-powder-blue-90: #9fddea;
+    --uos-powder-blue-80: #ade0eb;
+    --uos-powder-blue-70: #b6e6ee;
+    --uos-midnight-black: #131E29;
+    --uos-midnight-black-90: #2c3841;
+    --uos-midnight-black-80: #424a54;
+    --uos-midnight-black-70: #57636b;
+    --uos-teal: #005A8F;
+    --uos-aqua: #00BBCC;
+    --uos-mint-green: #00CE7C;
+    --uos-coral: #E7004C;
+    --uos-peach: #FF9664;
+}
+
+body {
+    color: var(--uos-midnight-black-90)
+}
+
+.header{
+    background-color: var(--white);
+}
+
+.promo{
+    background: var(--uos-midnight-black-90);
+}
+
+.footer{
+    background: var(--uos-deep-violet);
+}
+
+/* Sizes for h1 to h6, overriding bootstrap css */
+h1, .h1 { font-size: 2.5rem; }
+h2, .h2 { font-size: 2rem; }
+h3, .h3 { font-size: 1.75rem; }
+h4, .h4 { font-size: 1.5rem; }
+h5, .h5 { font-size: 1.25rem; }
+h6, .h6 { font-size: 1rem; }
+
+h1, h2, h3, h4, h5, h6  {
+    color: var(--uos-deep-violet);
+}
+
+a {
+    color: var(--uos-deep-violet);
+}
+
+.nav-link{
+    color: var(--uos-midnight-black) !important;
+}
+
+.contact {
+    background: var(--uos-powder-blue);
+}
+
+.contact-inner a {
+    color: var(--uos-deep-violet);
+    text-decoration: underline;
+}
+
+.contact-inner p {
+    color: var(--uos-deep-violet);
+}
+
+.contact-inner h2 {
+    color: var(--uos-deep-violet) !important;
+}
+
+.seminar-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Make all images behave fluidly by default. I.e. not wider than their parent with a maintained aspect ratio. */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .promo .intro {
+        font-size: 18px;
+    }
+}
+
+/* Visually distinguish past events.*/
+.event-item-previous a {
+    color: var(--uos-deep-violet-70);
+}
+.event-item-previous > div >img {
+    opacity: 0.40;
+}
+
+figcaption {
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
+}
+
+/* Style Pagination of Blogposts */
+.pagination a, .pagination span {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-bottom: 0px;
+    background-color: var(--white)fff;
+    display: inline-block;
+}
+.pagination a:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+.pagination a {
+    cursor: pointer;
+}
+.pagination {
+    text-align: center;
+}
+/* Adjust heading sizes for blog-excerpts */
+.blog-excerpt h1, .blog-excerpt .h1 { font-size: 2rem; }
+.blog-excerpt h2, .blog-excerpt .h2 { font-size: 1.75rem; }
+.blog-excerpt h3, .blog-excerpt .h3 { font-size: 1.5rem; }
+.blog-excerpt h4, .blog-excerpt .h4 { font-size: 1.25rem; }
+.blog-excerpt h5, .blog-excerpt .h5 { font-size: 1rem; }
+.blog-excerpt h6, .blog-excerpt .h6 { font-size: 1rem; } /* No h7 to steal a size from */
+
+ hr.blog-post-seperator {
+  width: 50%; /*Differentiate hr, to those used within markdown/blog posts*/
+  border-top: 2px solid;
+  margin-top: 32px; /*2 rem, double end of paragraph*/
+  margin-bottom: 32px;
+}
+div.pagination-wrapper {
+  justify-content: center;
+  flex-flow:row wrap;
+  display: flex;
+}
+div.all-posts {
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 16px; /*1 rem, same as end of paragraph*/
+}
+
+/* Extra custom styling for pre / code blocks */
+pre {
+    background-color: var(--uos-midnight-black);
+    padding: 1em;
+    margin: 0 0 1em 0;
+    border-radius: 0.4em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: #f8f8f2;
+    font-family: monospace;
+    hyphens: none;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+
+}
+
+/* comments in code blocks */
+pre.highlight > code > span.c, pre.highlight > code > span.c1 {
+    color: var(--uos-peach);
+}
+
+code {
+    color: var(--uos-coral);
+    font-family: monospace;
+}
+
+.highlight {
+    border-radius: 0.4em;
+}
+
+pre.highlight{
+    line-height: 1.5;
+}
+
+
+/* Custom blockquote styling */
+blockquote {
+    margin: 0 0 1rem 0;
+    padding: 0 1rem;
+    color: var(--uos-midnight-black-80);
+    border-left: .3rem solid var(--uos-midnight-black-80);
+}
+
+/* optionally make .btn's wrap text */ 
+.btn-wrap {
+    white-space: normal;
+}
+
+.btn-primary {
+    background-color: var(--uos-powder-blue);
+    border-color: var(--uos-powder-blue);
+    color: var(--uos-midnight-black);
+}
+
+.btn-primary:hover {
+    background-color: var(--uos-deep-violet);
+    border-color: var(--uos-deep-violet);
+    color: var(--white);
+}
+
+.btn-success {
+    background-color: var(--uos-mint-green);
+    border-color: var(--uos-mint-green);
+    color: var(--uos-midnight-black);
+}
+
+.btn-success:hover {
+    background-color: var(--uos-deep-violet);
+    border-color: var(--uos-deep-violet);
+    color: var(--white);
+}
+
+.sm-a {
+    color: var(--uos-powder-blue);
+    text-decoration: underline;
+}
+
+.sm-a:hover{
+    color: var(--uos-powder-blue);
+}
+
+a:hover {
+    color: var(--uos-deep-violet);
+}
+
+/* project page tag cloud */
+a.tag-link.selected, a.filter-link.selected{
+    font-weight: bold;
+}
+
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:50%;  
+  float:left;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}

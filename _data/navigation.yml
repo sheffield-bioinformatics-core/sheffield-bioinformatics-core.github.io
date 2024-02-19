@@ -1,34 +1,36 @@
-# Site navigation links
-
-- title: Home
-  url: .
-  
-- title: Team
-  url: /team/
-
-- title: Expertise
-  url: /expertise/
-
-- title: Policies
-  url: /policies/
-  
-- title: Resources
-  url: /resources/
-
-- title: Training
-  url: /training/
-
-- title: News
-  url: /blog/
-  
+- title: Collaborate
+  subitems:
+    - title: Who are we?
+      url: /collaboration/
+    - title: How to work with us
+      url: /collaboration/policies/ 
+    - title: Our Expertise
+      url: /collaboration/expertise        
+    - title: Costing Bioinformatics time
+      url: /collaboration/costing
+    - title: Testimonials
+      url: /collaboration/testimonials
+- title: "Training"
+  subitems:
+    - title: Bioinformatics Training with SBC
+      url: /training/
+    - title: High Performance Computing (HPC) / Bioinformatics Pipelines
+      url: /training/hpc
+    - title: Links to other materials
+      url: /training/other-materials
+- title: Our Community
+  subitems:
+    - title: Overview
+      url: /community
+    - title: Code of Conduct
+      url: /community/code_of_conduct
+    - title: Blog
+      url: /blog/
 - title: Contact
-  url: /contact/
-
-
-### Remove search and github as we're not interested in these right now
-
-## title: Search
-##  url: /search/
-
-##- title: GitHub
-##  url: https://github.com/sheffield-bioinformatics-core
+  subitems:
+    - title: Contact us
+      url: /contact/
+    - title: SBC Team
+      url: /team
+    - title: Alumni
+      url: /team/alumni

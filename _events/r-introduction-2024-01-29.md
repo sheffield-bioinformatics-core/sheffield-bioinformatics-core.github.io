@@ -5,6 +5,10 @@ category: workshop
 title: Data Manipulation and Visualization
 excerpt: "Data Manipulation and Visualization using the R programming language"
 permalink: /training/r-introduction-2024-01-29
+startDate: 2024-02-05
+date: 2024-02-05
+endDate: 2024-02-09
+end-date: 2024-02-09
 startTime: 13.00
 from: "13:00"
 endTime: 17.00

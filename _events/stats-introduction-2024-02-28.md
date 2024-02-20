@@ -27,8 +27,6 @@ difficulty: beginner
 contact: bioinformatics-core@sheffield.ac.uk
 ---
 
-#
-
 - Wednesday 28th February, 13:00 - 17:00
 - Bartolome House, Seminar Room EG03, or ONLINE
 - [Registration Link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school)

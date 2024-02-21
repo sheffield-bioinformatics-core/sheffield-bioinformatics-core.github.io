@@ -10,11 +10,11 @@ end-date: 2024-02-28
 startDate: 2024-02-28
 endDate: 2024-02-28
 startTime: 13.00
-endTime: 17.00
+endTime: 16.30
 from: "13:00"
-to: "17:00"
+to: "16:30"
 location: "Bartolome House - Seminar Room EG03, or ONLINE"
-speaker: "Dr. Aya Elwazir, Dr. Mark Dunning"
+speaker: "Dr. Aya Elwazir, Dr. Mark Dunning, Dr. Akshay Bhat, Dr. Mohsin Masood"
 postcode: S3 7ND
 city: Sheffield, or online
 country: United Kingdom
@@ -27,7 +27,7 @@ difficulty: beginner
 contact: bioinformatics-core@sheffield.ac.uk
 ---
 
-- Wednesday 28th February, 13:00 - 17:00
+- Wednesday 28th February, 13:00 - 16:30
 - Bartolome House, Seminar Room EG03, or ONLINE
 - [Registration Link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school)
 
@@ -64,7 +64,7 @@ The course is aimed primarily at scientists at all levels – especially those w
 
 ## Prerequisites
 
-- Introductory-level R; for example attending our [Data Manipulation and Visualisation](http://sbc.shef.ac.uk/training/r-introduction-2024-02-29/) course
+- Introductory-level R; for example attending our [Data Manipulation and Visualisation](http://sbc.shef.ac.uk/training/r-introduction-2024-01-29/) course
 
 
 ## Provisional Timetable and Materials
@@ -81,7 +81,12 @@ Install R by downloading and running [this .exe file](http://cran.r-project.org/
 
 ### Mac
 
-Install R by downloading and running [this .pkg file](https://cran.r-project.org/bin/macosx/base/R-4.2.1.pkg) from CRAN. Also, please install the free [RStudio IDE](https://www.rstudio.com/products/rstudio/download/#download) 
+Install R by downloading and running the appropriate installer from CRAN. 
+
+- [Intel Macs](https://cran.r-project.org/bin/macosx/big-sur-x86_64/base/R-4.3.2-x86_64.pkg)
+- [Apple Silicon (M1/M2)](https://cran.r-project.org/bin/macosx/big-sur-arm64/base/R-4.3.2-arm64.pkg)
+
+Also, please install the free [RStudio IDE](https://www.rstudio.com/products/rstudio/download/#download) 
 
 ### Linux
 
@@ -92,11 +97,15 @@ You can download the binary files for your distribution from CRAN. Or you can us
 2) Type the following into the R console to install some extra R packages required for the workshop
 
 ```
-install.packages("dplyr")
-install.packages("ggplot2")
-install.packages("readr")
-install.packages("rmarkdown")
-install.packages("tidyr")
+install.packages(c("dplyr",
+                   "ggplot2",
+                   "readr",
+                   "readxl",
+                   "rstatix",
+                   "ggpubr",
+                   "rmarkdown",
+                   "tidyr",
+                   "vcd"))
 ```
 
 
@@ -121,7 +130,7 @@ If this is the case, you will need to follow the instructions from this link to 
 
 ## Instructors
 
+- Aya Elwazir, Postdoc
 - Mark Dunning, Bioinformatics Core Director
-- Emily Chambers, Bioinformatics Core Scientist
-- Aya Elwazir, PhD Student
-
+- Akshay Bhat, Cancer Bioinformatician
+- Mohsin Masood, Health Data Scientist

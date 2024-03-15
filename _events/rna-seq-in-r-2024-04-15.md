@@ -27,9 +27,9 @@ speaker: Dr. Mark Dunning, Dr Emily Chambers, Dr. Akshay Bhat
 
 ## Workshop Information
 
-- Monday 15th April 12:30 - 16:30
-- Wednesday 17th April 12:30 - 16:30
-- Friday 19th April 12:30 - 16:30
+- Monday 15th April 13:00 - 16:00
+- Wednesday 17th April 13:00 - 16:00
+- Friday 19th April 13:00 - 16:00
 
 
 

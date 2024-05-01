@@ -58,42 +58,36 @@ Researchers in life sciences who want to get an appreciation for the computation
 You will need to bring an internet-enabled laptop to the course and install the latest versions of Cytoscape before coming to the course
 
 1) Install Cytoscape
-
-Windows
-Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
-More on installation, documentation and how to integrate the package with R or Python is described here:
-Mac
-Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
-
-Linux
-Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
+  - Go to [Cytoscape](https://cytoscape.org/download.html) and click Download
 
 2) Install the Cytoscape packages/Apps required for the course
 
-Go to ClueGO and CluePedia
-Click Download or Install (if your cytoscape application is already open)
+  - Go to [ClueGO](https://apps.cytoscape.org/apps/cluego) and [CluePedia](https://apps.cytoscape.org/apps/cluepedia)
+  - Click Download or Install (if your cytoscape application is already open)
+  - More on installation, documentation and how to integrate the package with R or Python is described here:
 
 3) Download and unzip this file containing the data for the course
 
-Link to Data
+- [Link to Data](https://github.com/a1aks/Cytoscape_Course/tree/0b870086afbc1b678f10f9e9bcf55ec342494660/Data_Files)
+
 4) (Optional) Watch these short introductory videos
 
-A gentle introduction to Cytoscape
-Visualisation of Biological Networks using Cytoscape
+- [A gentle introduction to Cytoscape](https://www.youtube.com/watch?v=YH-XXHhrv58)
+- [Visualisation of Biological Networks using Cytoscape](https://www.youtube.com/watch?v=sqM7ZLhTJoM&list=PLFQS98nmv__zaNXLUQACQu1dHWjtpToKN&index=3)
 
 
 ## Timetable (Provisional)
 
-- Session 1 Thursday 12th June 9:00 9:00 - 13:00
+- Session 1 Wednesday 12th June 9:30 - 13:00
   + Importing example cancer RNA-seq counts into Cytoscape
   + Querying pathway and interaction sources using Cytoscape - App.
   + Styling the network and saving for publication.
-- Session 2 Thursday 12th June 13:15 - 15:00
+- Session 2 Wednesday 12th June 13:00 - 15:00
   + Using diffrential expressed gene-lists, perform protein-protein interactions or gene-regulatory networks.
   + Manipulating and filtering gene-lists, pathways and clustered modules.
   + Creating sub-networks of specific derived clustered modules.
   + Enriching gene-list into pathways using FunctionalEnrichment - App.
-- Session 3 Thursday 12th June 15:15 - 16:30
+- Session 3 Thursday 12th June 15:00 - 16:30
   + Pathway clustering using ClueGO - Functional Enrichment
   + Using ClueGO’s features for integrating and querying multiple pathway database sources.
   + Use CluePedia (sister-software for ClueGO) to map gene regulatory information within specific pathways.

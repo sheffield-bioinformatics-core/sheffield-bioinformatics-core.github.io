@@ -28,7 +28,12 @@ speaker: Dr. Akshay Bhat
 ## Workshop Information
 
 - Wednesday 12th June 09:30 - 16:30 (approx)
-- Bartolome House, Seminar Room EG03
+- Bartolome House, Seminar Room EG03 or ONLINE
+
+## Booking Link
+
+Please book your place using [this link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school)
+
 
 
 ## Overview

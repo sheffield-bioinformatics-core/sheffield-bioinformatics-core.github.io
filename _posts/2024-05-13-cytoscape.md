@@ -23,7 +23,7 @@ The course will take place on **Wednesday June 12th** from 9:30 to 16:30 with **
 
 [Link for course registration](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school)
 
-More information about the course can be found [here](https://sbc.shef.ac.uk/training/2024_06_12_cytoscape1)
+More information about the course can be found [here](https://sbc.shef.ac.uk/training/2024_06_12_cytoscape)
 
 
 ![cytoscape-image](/assets/images/cytoscape-image.png)

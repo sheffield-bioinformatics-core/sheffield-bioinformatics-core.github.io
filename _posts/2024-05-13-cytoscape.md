@@ -26,4 +26,4 @@ The course will take place on **Wednesday June 12th** from 9:30 to 16:30 with **
 More information about the course can be found [here](https://sbc.shef.ac.uk/training/2024_06_12_cytoscape1)
 
 
-![cytoscape-image](cytoscape-image.png)
+![cytoscape-image](/assets/images/cytoscape-image.png)

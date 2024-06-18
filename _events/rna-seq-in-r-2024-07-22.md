@@ -45,9 +45,7 @@ You will need to attend **all three sessions**, or be commited to catch-up on an
 
 ## Registration Link
 
-You can sign-up to attend either in-person or online using this link
-
-- [https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school)
+University of Sheffield staff / students can book via myDevelopment
 
 ## Materials
 

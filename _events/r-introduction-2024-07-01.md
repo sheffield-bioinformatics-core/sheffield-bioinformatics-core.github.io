@@ -47,8 +47,7 @@ email: [bioinformatics-core@sheffield.ac.uk](bioinformatics-core@sheffield.ac.uk
 
 # Registration Link
 
-Please use [this link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school) to register for the course
-
+University of Sheffield staff / students can book via myDevelopment
 
 ## Overview
 

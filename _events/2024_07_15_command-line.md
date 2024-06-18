@@ -13,11 +13,11 @@ startTime: 13.00
 from: "13:00"
 endTime: 16.00
 to: "16:30"
-location:  Bartolome House, Seminar Room EG03, or Online
+location:  301 Glossop Road-B-Workshop Space 1, or Online
 city: Sheffield,
 postcode: S3 7ND
 country: United Kingdom
-venue: Bartolome House, Seminar Room EG03
+venue: 301 Glossop Road-B-Workshop Space 1
 description: "This course offers an introduction to working with Linux. We will describe the Linux environment so that participants can start to utilize command-line tools and feel comfortable using a text-based way of interacting with a computer. We will use a case study of dealing with next-generation sequencing data"
 keywords: bioinformatics, bash, unix, online
 difficulty: beginner
@@ -28,9 +28,9 @@ speaker: Dr. Mark Dunning
 
 - Sheffield - 15th July 2024
 - 13:00 - 16:00pm
-- Bartolome House, Seminar Room EG03
+- 301 Glossop Road-B-Workshop Space 1
 
-- [https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school)
+University of Sheffield staff / students can book via myDevelopment
 
 
 ## Overview

@@ -47,17 +47,6 @@ Those wanting to use the command-line to perform data analysis; particularly tho
 
 This course offers an introduction to working with Linux for Bioinformatics. We will describe the Linux environment so that participants can start to utilize command-line tools and feel comfortable using a text-based way of interacting with a computer. We give example of processing data arising from Next-Generation Sequencing experiments, in particular an RNA-seq experiment.
 
-
-**Some prior knowledge of working with the command-line is required**. Those based in Sheffield can sign-up for an introductory course from the Research-IT team at this link
-
-- [crs.shef.ac.uk](https://crs.shef.ac.uk/) 
-
-In particular the **Introduction to Linux course** should be attended, and optionally **Linux Shell Scripting Tutorial** and **Introduction to Running Software on HPC** would be beneficial
-
-Those outside Sheffield and interested in attending are recommended to follow these lessons from Software Carpentry
-
-- [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/)
-
 ## Who should attend this course?
 
 Those wanting to use the command-line to perform data analysis; particularly those with next-generation sequencing data such as RNA-Seq

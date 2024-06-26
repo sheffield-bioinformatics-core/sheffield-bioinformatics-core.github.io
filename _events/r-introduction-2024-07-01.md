@@ -73,8 +73,8 @@ Install R by downloading and running [this .exe file](http://cran.r-project.org/
 
 Install R by downloading and running one of the following pkg files depending on your model of Mac
 
-- [Apple silicon (M1/M2) Macs](https://cran.r-project.org/bin/macosx/big-sur-arm64/base/R-4.3.1-arm64.pkg)
-- [Older models](https://cran.r-project.org/bin/macosx/big-sur-x86_64/base/R-4.3.1-x86_64.pkg)
+- [Apple silicon (M1/M2) Macs](https://cran.r-project.org/bin/macosx/big-sur-arm64/base/R-4.4.1-arm64.pkg)
+- [Older models](https://cran.r-project.org/bin/macosx/big-sur-x86_64/base/R-4.4.1-x86_64.pkg)
 
 Also, please install the free [RStudio IDE](https://www.rstudio.com/products/rstudio/download/#download) 
 

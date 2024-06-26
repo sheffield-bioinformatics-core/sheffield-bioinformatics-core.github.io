@@ -67,7 +67,7 @@ These instructions are also described in a video:- [https://youtu.be/QIubJ8W8R4g
 
 ### Windows
 
-Install R by downloading and running [this .exe file](http://cran.r-project.org/bin/windows/base/release.htm) from CRAN. Also, please install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop). Note that if you have separate user and admin accounts, you should run the installers as administrator (right-click on .exe file and select "Run as administrator" instead of double-clicking). Otherwise problems may occur later, for example when installing R packages.
+Install R by downloading and running [this .exe file](https://cran.r-project.org/bin/windows/base/R-4.4.1-win.exe) from CRAN. Also, please install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop). Note that if you have separate user and admin accounts, you should run the installers as administrator (right-click on .exe file and select "Run as administrator" instead of double-clicking). Otherwise problems may occur later, for example when installing R packages.
 
 ### Mac
 

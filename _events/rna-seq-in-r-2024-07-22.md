@@ -121,7 +121,7 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/rnaseq-r
 - Dr. Mark Dunning, Bioinformatics Core Director
 - Dr. Emily Chambers, Bioinformatics Core Scientist
 - Dr. Akshay Bhat, Cancer Bioinformatician
-- Lara Oberski, PhD Student
+- Ben Draper, PhD Student
 
 
 ## Timetable (provisional)

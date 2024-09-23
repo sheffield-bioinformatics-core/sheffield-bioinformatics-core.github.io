@@ -7,8 +7,8 @@ title: Introduction to RNA-seq analysis in R
 excerpt: "RNA-seq in R"
 startDate: 2024-12-02
 date: 2024-12-02
-endDate: 2024-12-02
-end-date: 2024-11-02
+endDate: 2024-12-06
+end-date: 2024-12-06
 startTime: 13.00
 from: "13:00"
 endTime: 16.00
@@ -27,9 +27,9 @@ speaker: Dr. Mark Dunning, Dr. Akshay Bhat
 
 ## Workshop Information
 
-- Monday 22nd July 13:00 - 16:00
-- Wednesday 24th July 13:00 - 16:00
-- Friday 26th July 13:00 - 16:00
+- Monday 2nd December 13:00 - 16:00
+- Wednesday 4th December 13:00 - 16:00
+- Friday 6th December 13:00 - 16:00
 
 
 

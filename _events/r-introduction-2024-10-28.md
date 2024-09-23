@@ -17,7 +17,7 @@ city: Sheffield, or online
 postcode: S3 7ND
 country: United Kingdom
 venue: University of Sheffield, or ONLINE
-location: Bartolome House, Seminar Room EG03, Pam Liversidge E06 or Online
+location: Bartolome House, Seminar Room EG03, 301 Glossop Road-B-Workshop Space 1 or Online
 description: "As the data generated from high-throughput biological experiments increase in volume and become more complex, the ability to manipulate and visualise data is a highly-desirable skill in academia and industry. Whilst familiar tools such as Excel allow basic manipulations, they are often not scalable to larger datasets and are not ameanable to reproducible analysis. 
 R is a highly-regarded, free, software environment for statistical analysis, with many useful features that promote and facilitate reproducible research."
 keywords: bioinformatics, R, data analysis, data visualization, ggplot2, dplyr, online
@@ -34,7 +34,7 @@ There are options for attending online and in-person. If you are based in Sheffi
 
 - Monday 1st July 13:00 - 16:00 Bartolome House Seminar Room EG03, or online
 - Wednesday 3rd July 13:00 - 16:00 Bartolome House Seminar Room EG03, or online
-- Friday 5th July 13:00 - 16:00 Pam Liversidge Building E06, or online
+- Friday 5th July 13:00 - 16:00 301 Glossop Road-B-Workshop Space 1, or online
 
 Please only sign-up to the course if you are available on these dates, or prepared to devote time to review any sessions that you miss
 

@@ -5,19 +5,19 @@ permalink: /training/2024_07_15_command-line
 category: workshop
 title: Introduction to the command line for Bioinformatics
 excerpt: "Introduction to Unix"
-startDate: 2024-07-15
-date: 2024-07-15
-endDate: 2024-07-15
-end-date: 2023-07-15
+startDate: 2024-11-27
+date: 2024-11-27
+endDate: 2024-11-27
+end-date: 2023-11-27
 startTime: 13.00
 from: "13:00"
 endTime: 16.00
-to: "16:30"
-location:  301 Glossop Road-B-Workshop Space 1, or Online
+to: "16:00"
+location: Bartolome House, Seminar Room EG03, or Online
 city: Sheffield,
 postcode: S3 7ND
 country: United Kingdom
-venue: 301 Glossop Road-B-Workshop Space 1
+venue: Bartolome House, Seminar Room EG03
 description: "This course offers an introduction to working with Linux. We will describe the Linux environment so that participants can start to utilize command-line tools and feel comfortable using a text-based way of interacting with a computer. We will use a case study of dealing with next-generation sequencing data"
 keywords: bioinformatics, bash, unix, online
 difficulty: beginner
@@ -26,9 +26,11 @@ contact: bioinformatics-core@sheffield.ac.uk
 speaker: Dr. Mark Dunning
 ---
 
-- Sheffield - 15th July 2024
+
+
+- Sheffield - 27th November 2024
 - 13:00 - 16:00pm
-- 301 Glossop Road-B-Workshop Space 1
+- Bartolome House, Seminar Room EG03
 
 University of Sheffield staff / students can book via myDevelopment
 

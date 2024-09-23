@@ -2,7 +2,7 @@
 layout: page
 organizer: Sheffield Bioinformatics Core
 category: workshop
-permalink: /training/rna-seq-introduction-2024-03-20
+permalink: /training/rna-seq-introduction-2024-11-12
 title: Introduction to RNA-Seq Analysis
 excerpt: "Introduction to RNA-seq analysis from count data"
 startDate: 2024-11-12

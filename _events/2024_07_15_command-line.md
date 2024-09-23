@@ -1,7 +1,7 @@
 ---
 layout: page
 organizer: Sheffield Bioinformatics Core
-permalink: /training/2024_07_15_command-line
+permalink: /training/2024_11_27_command-line
 category: workshop
 title: Introduction to the command line for Bioinformatics
 excerpt: "Introduction to Unix"

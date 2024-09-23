@@ -4,7 +4,7 @@ organizer: Sheffield Bioinformatics Core
 category: workshop
 title: Data Manipulation and Visualization
 excerpt: "Data Manipulation and Visualization using the R programming language"
-permalink: /training/r-introduction-2024-07-01
+permalink: /training/r-introduction-2024-10-28
 startDate: 2024-10-28
 date: 2024-10-28
 endDate: 2024-11-01

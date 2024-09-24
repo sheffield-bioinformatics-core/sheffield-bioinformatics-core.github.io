@@ -32,8 +32,8 @@ speaker: Dr. Mark Dunning, Dr. Akshay Bhat
 There are options for attending online and in-person. If you are based in Sheffield, we would strongly recommend attending in-person if possible.
 
 
-- Monday 1st July 13:00 - 16:00 Hicks Building F20, or online
-- Wednesday 3rd July 13:00 - 16:00 Pam Liversidge Building E06, or online
+- Monday 1st July 13:00 - 16:00 Bartolome House EG03, or online
+- Wednesday 3rd July 13:00 - 16:00 Bartolome House EG03, or online
 - Friday 5th July 13:00 - 16:00 301 Glossop Road-B-Workshop Space 1, or online
 
 Please only sign-up to the course if you are available on these dates, or prepared to devote time to review any sessions that you miss

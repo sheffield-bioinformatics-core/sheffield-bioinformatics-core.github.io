@@ -34,7 +34,9 @@ Online, and Pam Liversidge Building E06, - University of Sheffield
 
 ## Registration
 
-University of Sheffield staff and students can register using the myDevelopment platform. Otherwise, please use [this link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school) to register for the course. There are options for attending online and in-person.
+University of Sheffield staff / students are recommended to book via myDevelopment
+
+Otherwise, please use [this link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school) to register for the course. There are options for attending online and in-person.
 
 ## Course Materials
 

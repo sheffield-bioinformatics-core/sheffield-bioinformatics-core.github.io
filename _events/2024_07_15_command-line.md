@@ -32,8 +32,9 @@ speaker: Dr. Mark Dunning
 - 13:00 - 16:00pm
 - Bartolome House, Seminar Room EG03
 
-University of Sheffield staff / students can book via myDevelopment
+University of Sheffield staff / students are recommended to book via myDevelopment
 
+Otherwise, please use [this link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/medical-school) to register for the course. There are options for attending online and in-person.
 
 ## Overview
 

@@ -15,9 +15,9 @@ endTime: 16.00
 to: "16:00"
 city: Sheffield, or online
 postcode: S3 7RD
-location: Hicks Building G43a, or ONLINE
+location: Bartolome House EG03, 301 Glossop Road Workshop 1 or ONLINE
 country: United Kingdom
-venue: Hicks Building G43a, or ONLINE
+venue: Bartolome House EG03, 301 Glossop Road Workshop 1 or ONLINE
 description: "In this workshop, you will be learning how to analyse RNA-seq count data, using R. This will include reading the data into R, quality control and performing differential expression analysis and gene set testing, with a focus on the DESeq2 analysis workflow. You will learn how to generate common plots for analysis and visualisation of gene expression data, such as boxplots and heatmaps. This workshop is aimed at biologists interested in learning how to perform differential expression analysis of RNA-seq data when reference genomes are available.."
 keywords: bioinformatics, NGS, RNA-seq, R
 difficulty: beginner
@@ -27,13 +27,9 @@ speaker: Dr. Mark Dunning, Dr. Akshay Bhat
 
 ## Workshop Information
 
-- Monday 2nd December 13:00 - 16:00
-- Wednesday 4th December 13:00 - 16:00
-- Friday 6th December 13:00 - 16:00
-
-
-
-Online, and Hicks Building G43a (The University of Sheffield)
+- Monday 2nd December 13:00 - 16:00; 301 Glossop Road, Workshop 1
+- Wednesday 4th December 13:00 - 16:00; Bartolome House EG03
+- Friday 6th December 13:00 - 16:00; 301 Glossop Road, Workshop 1
 
 You will need to attend **all three sessions**, or be commited to catch-up on any materials you missed, in order to complete the workshop
 

@@ -3,7 +3,7 @@
     - title: Who are we?
       url: /collaboration/
     - title: How to work with us
-      url: /collaboration/policies/ 
+      url: /collaboration/policies
     - title: Our Expertise
       url: /collaboration/expertise        
     - title: Costing Bioinformatics time
@@ -23,11 +23,11 @@
     - title: Overview
       url: /community
     - title: Blog
-      url: /blog/
+      url: /blog
 - title: Contact
   subitems:
     - title: Contact us
-      url: /contact/
+      url: /contact
     - title: SBC Team
       url: /team
     - title: Alumni

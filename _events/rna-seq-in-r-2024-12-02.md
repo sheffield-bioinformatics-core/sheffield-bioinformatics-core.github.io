@@ -117,10 +117,8 @@ source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/rnaseq-r
 ## Instructors
 
 - Dr. Mark Dunning, Bioinformatics Core Director
-- Dr. Emily Chambers, Bioinformatics Core Scientist
 - Dr. Akshay Bhat, Cancer Bioinformatician
-- Ben Draper, PhD Student
-
+- Dr. Manoj Valluru, Bioinformatician
 
 ## Timetable (provisional)
 

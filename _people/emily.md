@@ -1,6 +1,6 @@
 ---
-alumnum: false
-level: 0
+alumnum: true
+level: 1
 published: true
 permalink: /team/emily
 othernames: Emily

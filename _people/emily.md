@@ -1,21 +1,22 @@
 ---
 alumnum: false
-level: 1
+level: 0
 published: true
 permalink: /team/emily
 othernames: Emily
 surname: Chambers
 role: Bioinformatics Core Scientist
-summary: Emily joined the Bioinformatics Core at The University of Sheffield in September 2017. She has supported research for a wide variety of analysis projects across the University. She is leading the analysis for single-cell RNA-seq and spatial transcriptomics data. Emily leads the teaching on some of our training workshops, and is an accredited instructor of The Carpentries and attained FHEA status with AdvanceHE.
+summary: Emily joined the Bioinformatics Core at The University of Sheffield in September 2017 and supported research for a wide variety of analysis projects across the University. She led the analysis for single-cell RNA-seq and spatial transcriptomics data. Emily is an accredited instructor of The Carpentries and attained FHEA status with AdvanceHE.
 ---
 
 <img src="/assets/images/people/Emily.jpg" alt="Emily" width="170"/>
 
-Emily joined the Bioinformatics Core at The University of Sheffield in September 2017.
+Emily left the Bioinformatics Core in December 2024 to pursue a Data Technical Lead role in IT-Services as part of the [Data Connect](https://www.sheffield.ac.uk/data-connect) project.
 
 ## Experience
 
-* 2017 - Present: Bioinformatician - Bioinformatics Core Facility, University of Sheffield
+* 2024 - Present: Data Technical Lead - IT Services, University of Sheffield
+* 2017 - 2024: Bioinformatician - Bioinformatics Core Facility, University of Sheffield
 * 2013 - 2016: Postdoctoral Research Fellow - The [Roslin Institute](https://www.ed.ac.uk/roslin), University of Edinburgh
 * 2009 - 2013: PhD, MRC Capacity Building PhD Studentships - IGMM computational genomics group, University of Edinburgh 
 

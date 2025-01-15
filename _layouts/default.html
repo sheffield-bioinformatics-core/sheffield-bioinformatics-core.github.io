@@ -48,8 +48,14 @@
     <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <!--enable google analytics tracking-->
-    <script src="/analytics.html"></script>
-    {% feed_meta %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VT92SC6FBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VT92SC6FBH');
+</script>
 </head>
 
 <body data-spy="scroll" class="d-flex flex-column">

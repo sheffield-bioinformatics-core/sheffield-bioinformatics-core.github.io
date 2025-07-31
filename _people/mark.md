@@ -1,5 +1,5 @@
 ---
-alumnum: false
+alumnum: true
 permalink: /team/mark
 level: 0
 published: true
@@ -7,7 +7,7 @@ published: true
 othernames: Mark
 surname: Dunning
 role: Bioinformatics Manager
-summary: Mark joined The University of Sheffield in October 2017 to establish the Bioinformatics Core. He works on a variety of different projects, and has a particular interest in Cancer Bioinformatics. He leads the development of our <a href="/training/">training program</a> and is an accredited Carpentries instructor and FHEA.
+summary: Mark joined The University of Sheffield in October 2017 to establish the Bioinformatics Core. He worked on a variety of different projects, with a particular interest in Cancer Bioinformatics. He led the development of our <a href="/training/">training program</a> and is an accredited Carpentries instructor and FHEA.
 ---
 <p style="text-align:center;">
   <img src="/assets/images/people/Mark.jpg" width="250">
@@ -22,7 +22,7 @@ Mark joined The University of Sheffield in October 2017 to establish the Bioinfo
 
 ## Experience
 
-2025 - ... Bioinformatics Manager, The University of Sheffield
+Feb 2025 - Aug 2025 Bioinformatics Manager, The University of Sheffield
 
 2017 - 2025 Bioinformatics Core Director, The University of Sheffield
 

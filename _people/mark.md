@@ -7,7 +7,7 @@ published: true
 othernames: Mark
 surname: Dunning
 role: Bioinformatics Manager
-summary: See Mark's new page [http://mdbioinformatics.com](https://mdbioinformatics.com)
+summary: See Mark's new page https://mdbioinformatics.com
 ---
 <p style="text-align:center;">
   <img src="/assets/images/people/Mark.jpg" width="250">

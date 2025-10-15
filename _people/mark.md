@@ -1,6 +1,6 @@
 ---
 alumnum: true
-permalink: /team/mark
+permalink: http://mdbioinformatics.com
 level: 0
 published: true
 

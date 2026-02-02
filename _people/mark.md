@@ -7,10 +7,10 @@ published: true
 othernames: Mark
 surname: Dunning
 role: Bioinformatics Manager
-summary: See Mark's new page https://mdbioinformatics.com
+summary: Now Senior Teaching Fellow at Imperial College
 ---
 <p style="text-align:center;">
   <img src="/assets/images/people/Mark.jpg" width="250">
 </p>
 
-See Mark's new page [http://mdbioinformatics.com](https://mdbioinformatics.com)
+In February 2026, Mark commenced a role as a Senior Teaching Fellow at Imperial College London.

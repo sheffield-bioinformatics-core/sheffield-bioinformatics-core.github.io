@@ -13,4 +13,4 @@ summary: Now Senior Teaching Fellow at Imperial College
   <img src="/assets/images/people/Mark.jpg" width="250">
 </p>
 
-In February 2026, Mark commenced a role as a Senior Teaching Fellow at Imperial College London.
+In February 2026, Mark commenced a role as a [Senior Teaching Fellow at Imperial College London](https://profiles.imperial.ac.uk/m.dunning/about).

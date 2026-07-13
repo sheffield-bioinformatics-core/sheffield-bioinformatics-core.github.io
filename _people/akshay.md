@@ -4,7 +4,7 @@ title: Akshay Bhat
 excerpt: "More about Akshay..."
 ---
 
-![](/images/Akshay.jpg) 
+![](/images/people/Akshay.jpg) 
 
 
 Akshay joined the [NIHR Imperial BRC Genomics Facility, Imperial College London](https://www.imperial.ac.uk/medicine/research-and-impact/facilities/genomics-facility/) as a Data Engineer / Programmer in July 2026.

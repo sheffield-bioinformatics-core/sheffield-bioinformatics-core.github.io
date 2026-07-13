@@ -9,6 +9,7 @@ role: Associate Scientific Director
 summary: Dennis joined The University of Sheffield in September 2016 as a Lecturer in Genomic Medicine. During his time at Sheffield he acted as the co-Director for the MSc in Genomic Medicine course and Lead PI for Genomics in the NIHR Sheffield Biomedical Research Centre.
 ---
 
+Dennis now holds a [Chair in Data Science](https://profiles.imperial.ac.uk/dennis.wang) at the Natiaonl Heart and Lung Institute, Imperial College London
 
 ![dennis](/assets/images/people/dennis.jpg)
 

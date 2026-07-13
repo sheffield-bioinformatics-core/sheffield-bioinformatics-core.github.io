@@ -1,7 +1,12 @@
 ---
-layout: page
-title: Akshay Bhat
-excerpt: "More about Akshay..."
+alumnum: true
+level: 1
+published: true
+permalink: /team/akshay
+othernames: Akshay
+surname: Bhat
+role: Cancer Bioinformatician
+summary: Akshay joined the Sheffield Bioinformatics Core in October 2023. He was funded by <a href="https://www.sheffield.ac.uk/smph/people/clinical-medicine/james-catto">Prof. Jim Catto</a> to perform Bioinformatics analysis on Bladder and Prostate cancer datasets. He now works as a Data Engineer / Programmer at Imperial College London
 ---
 
 ![](/images/people/Akshay.jpg) 

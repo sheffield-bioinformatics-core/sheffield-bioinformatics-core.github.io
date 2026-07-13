@@ -9,8 +9,9 @@ role: Cancer Bioinformatician
 summary: Akshay joined the Sheffield Bioinformatics Core in October 2023. He was funded by <a href="https://www.sheffield.ac.uk/smph/people/clinical-medicine/james-catto">Prof. Jim Catto</a> to perform Bioinformatics analysis on Bladder and Prostate cancer datasets. He now works as a Data Engineer / Programmer at Imperial College London
 ---
 
-![](/assets/images/people/Akshay.jpg) 
-
+<p style="text-align:center;">
+  <img src="/assets/images/people/Akshay.jpg" width="425">
+</p>
 
 Akshay joined the [NIHR Imperial BRC Genomics Facility, Imperial College London](https://www.imperial.ac.uk/medicine/research-and-impact/facilities/genomics-facility/) as a Data Engineer / Programmer in July 2026.
 

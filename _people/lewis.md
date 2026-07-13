@@ -1,5 +1,5 @@
 ---
-alumnum: trye
+alumnum: true
 level: 2
 published: true
 permalink: /team/lewis

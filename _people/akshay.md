@@ -3,7 +3,11 @@ layout: page
 title: Akshay Bhat
 excerpt: "More about Akshay..."
 ---
-![](/images/) ## - To Be Added
+
+![](/images/Akshay.jpg) 
+
+
+Akshay joined the [NIHR Imperial BRC Genomics Facility, Imperial College London]([NIHR Imperial BRC Genomics Facility ](https://www.imperial.ac.uk/medicine/research-and-impact/facilities/genomics-facility/) as a Data Engineer / Programmer in July 2026.
 
 Akshay joined The University of Sheffield in October 2023 as a cancer bioinformatician at the Bioinformatics Core
 
@@ -14,7 +18,7 @@ Akshay joined The University of Sheffield in October 2023 as a cancer bioinforma
 ## Academic Experience
 
 
-2023 -... Cancer Bioinformatician, Sheffield Bioinformatics Core, The University of Sheffield.
+2023 - 2025: Cancer Bioinformatician, Sheffield Bioinformatics Core, The University of Sheffield.
 
 2021 - 2023: LIMS Manager, Center of Covid-19 Research Facility (CRUSH), University of Glasgow.
 

@@ -7,7 +7,7 @@ excerpt: "More about Akshay..."
 ![](/images/Akshay.jpg) 
 
 
-Akshay joined the [NIHR Imperial BRC Genomics Facility, Imperial College London]([NIHR Imperial BRC Genomics Facility ](https://www.imperial.ac.uk/medicine/research-and-impact/facilities/genomics-facility/) as a Data Engineer / Programmer in July 2026.
+Akshay joined the [NIHR Imperial BRC Genomics Facility, Imperial College London](https://www.imperial.ac.uk/medicine/research-and-impact/facilities/genomics-facility/) as a Data Engineer / Programmer in July 2026.
 
 Akshay joined The University of Sheffield in October 2023 as a cancer bioinformatician at the Bioinformatics Core
 

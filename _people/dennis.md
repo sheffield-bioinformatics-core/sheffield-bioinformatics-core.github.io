@@ -11,7 +11,7 @@ summary: Dennis joined The University of Sheffield in September 2016 as a Lectur
 
 Dennis now holds a [Chair in Data Science](https://profiles.imperial.ac.uk/dennis.wang) at the Natiaonl Heart and Lung Institute, Imperial College London
 
-![dennis](/assets/images/people/dennis.jpg)
+![dennis](/assets/images/people/Dennis.jpg)
 
 Dennis joined The University of Sheffield in September 2016 as a Lecturer in Genomic Medicine
 

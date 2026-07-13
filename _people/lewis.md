@@ -1,5 +1,5 @@
 ---
-alumnum: false
+alumnum: trye
 level: 2
 published: true
 permalink: /team/lewis
@@ -8,6 +8,8 @@ surname: Quayle
 role: Bioinformatics Core Associate
 summary: Lewis joined the Bioinformatics Core as Cancer Bioinformatican in June 2022 to support Bladder Cancer Projects. He joined Sheffield Hallam University as a senior lecturer in Data Science Analytics, but retains an honorary contract with The University of Sheffield  
 ---
+
+Lewis is now a [Senior Lecturer at Sheffield Hallam University](https://www.sheffieldcancerbioinformatics.com/pi/)
 
 <p style="text-align:center;">
   <img src="/assets/images/people/Lewis.jpg" width="425">

@@ -1,5 +1,5 @@
 ---
-alumnum: false
+alumnum: true
 level: 2
 published: true
 othernames: Mim
